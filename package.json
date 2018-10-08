@@ -1,0 +1,31 @@
+{
+  "name": "novel-template",
+  "version": "1.0.0",
+  "description": "Web小説執筆用テンプレート",
+  "main": "index.js",
+  "config": {
+    "epub_title": "本のタイトル",
+    "epub_author": "著者名",
+    "epub_publisher": "本の出版社名",
+    "epub_lang": "ja",
+    "epub_tocTitle": "目次",
+    "epub_appendChapterTitles": false
+  },
+  "scripts": {
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8amjp/novel-template.git"
+  },
+  "author": "8amjp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/8amjp/novel-template/issues"
+  },
+  "homepage": "https://github.com/8amjp/novel-template#readme",
+  "dependencies": {
+    "novel-builder": "^0.0.1"
+  }
+}

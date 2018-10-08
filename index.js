@@ -1,0 +1,1 @@
+require('novel-builder').build();
